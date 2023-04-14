@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-import '../modules/onboarding/onboarding_screen.dart';
+import '../modules/main/main_page.dart';
+import '../modules/onboarding/onboarding_page.dart';
 import '../modules/onboarding/onborading_binding.dart';
 import 'app_routers.dart';
 
@@ -10,6 +11,11 @@ class AppPages {
     GetPage(
       name: AppRouters.onboarding,
       page: () => const OnboardingPage(),
+      binding: OnboardingBinding(),
+    ),
+    GetPage(
+      name: AppRouters.main,
+      page: () => const MainPage(),
       binding: OnboardingBinding(),
     ),
   ];
