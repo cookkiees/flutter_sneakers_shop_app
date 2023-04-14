@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sneakers_shop_app/app/modules/home/home_page.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import '../../utils/my_colors.dart';
@@ -17,9 +18,7 @@ class MainPage extends StatelessWidget {
         body: IndexedStack(
           index: controller.tabIndex,
           children: [
-            Container(
-              color: Colors.amber,
-            ),
+            const HomePage(),
             Container(),
             Container(),
             Container(),
