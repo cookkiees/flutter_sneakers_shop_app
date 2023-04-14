@@ -1,3 +1,5 @@
+import 'package:flutter_sneakers_shop_app/app/modules/details/details_binding.dart';
+import 'package:flutter_sneakers_shop_app/app/modules/details/details_page.dart';
 import 'package:flutter_sneakers_shop_app/app/modules/home/home_binding.dart';
 import 'package:flutter_sneakers_shop_app/app/modules/home/home_page.dart';
 import 'package:flutter_sneakers_shop_app/app/modules/main/main_binding.dart';
@@ -25,6 +27,11 @@ class AppPages {
       name: AppRouters.home,
       page: () => const HomePage(),
       binding: HomeBinding(),
+    ),
+    GetPage(
+      name: AppRouters.details,
+      page: () => const DetailsPage(),
+      binding: DetailsBinding(),
     ),
   ];
 }
