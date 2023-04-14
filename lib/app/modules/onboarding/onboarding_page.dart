@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
+import 'package:flutter_sneakers_shop_app/app/routings/app_routers.dart';
 import 'package:flutter_sneakers_shop_app/app/utils/my_colors.dart';
 import 'package:get/get.dart';
 import 'onboarding_controller.dart';
@@ -14,7 +15,7 @@ class OnboardingPage extends GetView<OnboardingController> {
       finishButtonText: 'Shop Now',
       finishButtonTextStyle: const TextStyle(
           color: Colors.black, fontSize: 18.0, fontWeight: FontWeight.bold),
-      onFinish: () {},
+      onFinish: () => Get.toNamed(AppRouters.main),
       finishButtonStyle: const FinishButtonStyle(
         backgroundColor: MyColors.green,
       ),
