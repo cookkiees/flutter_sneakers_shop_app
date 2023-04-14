@@ -9,7 +9,7 @@ class AppPages {
   static final routes = [
     GetPage(
       name: AppRouters.onboarding,
-      page: () => const OnboardingScreen(),
+      page: () => const OnboardingPage(),
       binding: OnboardingBinding(),
     ),
   ];
