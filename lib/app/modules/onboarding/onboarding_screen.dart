@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding_slider/flutter_onboarding_slider.dart';
 import 'package:flutter_sneakers_shop_app/app/utils/my_colors.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'onboarding_controller.dart';
 import 'widgets/page_bodies_widget.dart';
